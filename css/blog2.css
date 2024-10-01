@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+@import url(fot.css);
+body{
+  margin: 0;
+   padding: 0;
+
+   background-color:#c5e2d3  ;
+     box-sizing: border-box;
+   
+}
+blockquote{
+  background-color: #bee2d0;
+}
+ 
+   
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color:#265f57;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+
+
+
+h1{
+   font-family: "Oranienbaum" , serif;
+    cursor: pointer;
+    margin-right: auto;
+    color: #E9EFEC;}
+
+ .img{
+    width: 100%;
+}
+
+.one img{
+    border: 9px solid #ebf7f0 ;
+    border-radius: 20px;
+    width: 100%;
+    float: inline-start;
+    margin-bottom: 1.7em;
+}
+
+.one{
+   
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 60px;
+    
+    color: #0d301e;
+    margin: 20px 40px;
+border-bottom: 2px solid #d8e7e2;
+
+}
+
+
+
+
+.one{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  
+  color: #0d301e;
+  margin: 20px 40px;
+border-bottom: 2px solid #d8e7e2;
+}
+
+
+
+
+
+
+.article1{
+font-family:"Oranienbaum", serif;
+  line-height: 1.6em;
+  font-size: 40px;
+  margin-bottom: 4em;
+  width: 100%;
+  
+}
+
+
+
+
+
+
+
+
+    @media screen and ( max-width: 1300px ) {
+        header{
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: center;
+         
+        }
+        h1{
+          padding-left: 50px;
+
+        }
+       .one{
+         display: block;
+       }
+       .two{
+         display: block;
+       }
+       img{
+         border: 3px solid #ebf7f0;
+       }
+       
+     }
+     @media screen and (max-width:590px) { 
+        header{
+        display:flex;
+        
+        flex-direction: column;
+       
+        }
+        .nav_bar{
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+        
+         
+        }
+     
+        
+       .one{
+         display: block;
+         margin: 1rem 2rem;
+       }
+         
+    
+       img{
+         border: 3px solid #ebf7f0;
+       }
+       h2{
+         margin-bottom: 0em;
+         
+        }
+         p {
+         font-size: smaller;
+         line-height:1.6em;
+         
+       }
+        }
+       
+         
+      
+      @media screen and (max-width:350px) { 
+       p{
+         font-size:1.5rem;
+       }
+       h2{
+         font-size: 30px;
+         line-height: normal;
+       }
+     img{
+       border: none;
+     }
+     header{
+       display: flex;
+       flex-direction: column;
+      
+     }
+   
+     
+      }

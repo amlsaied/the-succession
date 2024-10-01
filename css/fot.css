@@ -1,0 +1,9 @@
+footer{
+    grid-area: fot;
+  
+    color: #16423C;
+    justify-content: center;
+    margin-left:10em;
+    margin-bottom: 5em;
+ 
+    ;}

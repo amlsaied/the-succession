@@ -1,0 +1,10 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   grid-template-areas: "hd hd hd hd hd hd"
+   "mn mn mn mn mn mn"
+   "ft ft ft ft ft ft"
+   "fot fot fot fot fot fot ";
+   gap: 50px;
+   width: 100%;}
+   

@@ -1,0 +1,214 @@
+@import url('./a.css');  
+@import url('./b.css');   
+@import url('c.css'); 
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+
+ 
+
+ 
+
+  h1, li , button {
+    font-family:"Oranienbaum", serif;
+    font-weight: 5000;
+    font-style: normal;
+     color:#E9EFEC;
+     margin: 10px 20px;
+     text-decoration: none;
+     font-size: 50px;
+
+}
+
+h1,h2{
+  font-weight: bold;
+}
+
+p u {
+  text-decoration:underline;
+}
+p em{
+  font-style: italic;
+}
+h2{
+  font-style: italic;
+}
+
+
+button{
+    background-color: #6A9C89;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    
+    padding: 10px 10px;
+    }
+ li{
+    display: inline-block;
+    
+    
+}
+li a , button a{
+    text-decoration: none;
+    color: #E9EFEC;
+transition:all 0.3s ease 0s ;
+
+
+}
+li a:hover{
+color:#6A9C89 ;
+}
+h1{
+    cursor: pointer;
+    margin-right: auto;
+    font-weight: bold;
+}
+button{
+    transition:all 0.3s ease 0s ;
+}
+button:hover{
+    background-color:#457060}
+
+  div img{
+    width: 100%;
+}
+.button{
+  text-decoration: none;
+  border: 1px solid rgb(206, 219, 213);
+  background-color: #457060;
+  color: white;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+  
+
+img{
+    border: 9px solid #ebf7f0 ;
+    border-radius: 20px;
+    width: 100%;
+}
+header{
+    grid-area: hd;
+}
+
+blockquote{
+  background-color: #bee2d0;
+}
+ 
+
+.two{
+    grid-area: ft;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    color: #0d301e;
+    margin: 10px 40px;
+    border-bottom:1px solid#E9EFEC ;
+    box-shadow: 0px 2px 4px rgb(0,0,0,.2);
+}
+
+
+.article1{
+  font-family:"Oranienbaum", serif;
+    line-height: 1.6em;
+    font-size: 40px;
+    margin-bottom: 4em;
+    width: 100%;
+    
+}
+.article2{
+  font-family:"Oranienbaum", serif;
+    line-height: 2em;
+    font-size: 40px;
+    margin-bottom: 2em;
+    
+  }
+
+footer{
+    grid-area: fot;
+  
+    color: #16423C;
+    justify-content: center;
+    margin-left:10em;
+    margin-bottom: 5em;
+ 
+    ;}
+   @media screen and ( max-width: 1300px ) {
+   header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+  .card{
+    display: block;
+  }
+  .two{
+    display: block;
+  }
+  img{
+    border: 3px solid #ebf7f0;
+  }
+  
+}
+@media screen and (max-width:590px) { 
+   header{
+   display:flex;
+   
+   flex-direction: column;
+  
+   }
+   .nav_bar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+    
+   }
+
+   
+  .card{
+    display: block;
+    margin: 1rem 2rem;
+  }
+    
+  .two{
+    display: block;
+    margin: 1rem 2rem ;
+  }
+  img{
+    border: 3px solid #ebf7f0;
+  }
+  h2{
+    margin-bottom: 0em;
+    
+   } }
+  
+    
+  p {
+    font-size: smaller;
+    line-height:1.6em;
+    
+  }
+  
+ @media screen and (max-width:350px) { 
+  p{
+    font-size:1.5rem;
+  }
+  h2{
+    font-size: 30px;
+    line-height: normal;
+  }
+img{
+  border: none;
+}
+header{
+  display: flex;
+  flex-direction: column;
+ 
+}
+   h1,li,button{
+    font-size: 20px;
+   }
+  
+
+ }
